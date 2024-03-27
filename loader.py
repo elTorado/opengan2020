@@ -23,6 +23,13 @@ class MultiFolderLoader(Dataset):
         self.annotations = []
         self.class_labels = []
         self.img_type = img_type
+        
+        print("=======DIRECTORIES============")
+        print(self.directories)
+        
+        print("=======class_labels============")
+        print(self.class_labels)
+        
         class_label = 0
         print("Loading...")
         print(start_indx)
